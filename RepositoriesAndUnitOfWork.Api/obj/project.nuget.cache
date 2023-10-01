@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "DDw2+EZF89Pxqv8idixIkdkEt49YuIgB4O+YayFGKR+8dHnOhvs3amyuCtxYC9yfeUlASK3ZFA9boHkNU73dTA==",
+  "success": true,
+  "projectFilePath": "D:\\Route vids\\C# From Youtube\\DevCreed\\Repository Pattern With Unit Of Work in .Net 6\\RepositoriesAndUnitOfWork\\RepositoriesAndUnitOfWork.Api\\RepositoriesAndUnitOfWork.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Beefa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Beefa\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Beefa\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Beefa\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Beefa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Beefa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
