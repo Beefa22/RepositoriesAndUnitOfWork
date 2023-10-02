@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "JUIH0MaV1wDd28AnrcxQ9qfhVE44rPlCVCzYV1cVg1g=",
-  "Source": "RepositoriesAndUnitOfWork.Api",
-  "BasePath": "_content/RepositoriesAndUnitOfWork.Api",
+  "Hash": "mwVzM8MYeAIPJKLg9bK7htH1C89A0hO0gpDmYVoXjPw=",
+  "Source": "RepositoriesAndUnitOfWork.API",
+  "BasePath": "_content/RepositoriesAndUnitOfWork.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

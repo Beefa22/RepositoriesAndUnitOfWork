@@ -1,0 +1,14 @@
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\bin\Debug\net6.0\EF.deps.json
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\bin\Debug\net6.0\EF.runtimeconfig.json
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\bin\Debug\net6.0\EF.dll
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\bin\Debug\net6.0\EF.pdb
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\EF.csproj.AssemblyReference.cache
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\EF.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\EF.AssemblyInfoInputs.cache
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\EF.AssemblyInfo.cs
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\EF.csproj.CoreCompileInputs.cache
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\EF.dll
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\refint\EF.dll
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\EF.pdb
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\EF.genruntimeconfig.cache
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\ref\EF.dll

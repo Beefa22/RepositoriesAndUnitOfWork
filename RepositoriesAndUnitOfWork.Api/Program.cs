@@ -1,3 +1,6 @@
+using Repository;
+using Microsoft.EntityFrameworkCore;
+
 namespace RepositoriesAndUnitOfWork.Api
 {
     public class Program
@@ -13,6 +16,12 @@ namespace RepositoriesAndUnitOfWork.Api
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
+                    b=>b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName))
+            );
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -25,7 +34,7 @@ namespace RepositoriesAndUnitOfWork.Api
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+            app.UseStaticFiles();
 
             app.MapControllers();
 

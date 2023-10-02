@@ -1,0 +1,14 @@
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\bin\Debug\net6.0\Repository.deps.json
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\bin\Debug\net6.0\Repository.runtimeconfig.json
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\bin\Debug\net6.0\Repository.dll
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\bin\Debug\net6.0\Repository.pdb
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\Repository.dll
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\refint\Repository.dll
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\Repository.pdb
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\Repository.genruntimeconfig.cache
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\ref\Repository.dll
