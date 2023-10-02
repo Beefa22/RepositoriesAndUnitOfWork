@@ -1,5 +1,7 @@
 using Repository;
 using Microsoft.EntityFrameworkCore;
+using Core.Interfaces;
+using Repository.Repositories;
 
 namespace RepositoriesAndUnitOfWork.Api
 {
@@ -21,6 +23,8 @@ namespace RepositoriesAndUnitOfWork.Api
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
                     b=>b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName))
             );
+
+            builder.Services.AddTransient(typeof(IBaseRepository<>),typeof(BaseRepository<>));
 
             var app = builder.Build();
 

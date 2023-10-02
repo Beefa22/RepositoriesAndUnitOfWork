@@ -782,6 +782,16 @@
             "rid": "win"
           }
         }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
       }
     }
   },
@@ -2003,10 +2013,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.22",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.22",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.22"
@@ -2038,7 +2054,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Route vids\\C# From Youtube\\DevCreed\\Repository Pattern With Unit Of Work in .Net 6\\RepositoriesAndUnitOfWork\\Core\\Core.csproj": {
+              "projectPath": "D:\\Route vids\\C# From Youtube\\DevCreed\\Repository Pattern With Unit Of Work in .Net 6\\RepositoriesAndUnitOfWork\\Core\\Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

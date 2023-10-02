@@ -12,3 +12,6 @@ D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .
 D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\Repository.pdb
 D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\Repository.genruntimeconfig.cache
 D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\ref\Repository.dll
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\bin\Debug\net6.0\Core.dll
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\bin\Debug\net6.0\Core.pdb
+D:\Route vids\C# From Youtube\DevCreed\Repository Pattern With Unit Of Work in .Net 6\RepositoriesAndUnitOfWork\EF\obj\Debug\net6.0\Repository.csproj.CopyComplete
