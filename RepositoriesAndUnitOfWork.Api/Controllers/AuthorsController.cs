@@ -16,11 +16,19 @@ namespace RepositoriesAndUnitOfWork.API.Controllers
             _authorRepo = authorRepo;
         }
 
-        [HttpGet]
+        [HttpGet("{id}")]
         public IActionResult GetAuthorById(int id)
         {
             var author = _authorRepo.GetById(id);
             return Ok(author);
         }
+        [HttpGet("GetAuthorAsync")]
+        public async Task<IActionResult> GetAuthorByIdAsync(int id)
+        {
+            var author = await _authorRepo.GetByIdAsync(id);
+            return Ok(author);
+        }
+
+        
     }
 }
