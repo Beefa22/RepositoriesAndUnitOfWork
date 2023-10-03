@@ -1,4 +1,5 @@
-﻿using Core.Interfaces;
+﻿using Core.Consts;
+using Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,19 @@ namespace Repository.Repositories
             _dbContext = dbContext;
         }
 
+        public T Add(T entity)
+        {
+            _dbContext.Set<T>().Add(entity);
+            _dbContext.SaveChanges();
+                return entity;
+        }
+
+        public IEnumerable<T> AddRange(IEnumerable<T> entities)
+        {
+            _dbContext.Set<T>().AddRange(entities);
+            _dbContext.SaveChanges();
+            return entities;
+        }
 
         public T Find(Expression<Func<T, bool>> expression, string[] includes = null)
         {
@@ -52,6 +66,34 @@ namespace Repository.Repositories
             if (skip.HasValue)
                 query.Skip(skip.Value);
             return query.ToList();
+        }
+
+        public IEnumerable<T> FindAll(Expression<Func<T, bool>> criteria, int? take, int? skip,
+            string[] includes, Expression<Func<T, object>> orderBy = null, string orderByDirection = "ASC")
+        {
+            var query = _dbContext.Set<T>().Where(criteria);
+
+            if (includes is not null)
+            {
+                foreach (var include in includes)
+                    query = query.Include(include);
+            }
+
+            if (take.HasValue)
+                query.Take(take.Value);
+
+            if (skip.HasValue)
+                query.Skip(skip.Value);
+
+            if (orderBy is not null)
+            {  
+                if(orderByDirection==OrderBy.Ascending)
+                query = query.OrderBy(orderBy);
+                 else
+                query = query.OrderByDescending(orderBy);
+            }
+
+                return query.ToList();
         }
 
         public IEnumerable<T> GetAll()

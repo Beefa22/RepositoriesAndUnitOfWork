@@ -65,5 +65,13 @@ namespace RepositoriesAndUnitOfWork.API.Controllers
             var books = _bookRepo.FindAll(b => b.Title.Contains(name), includes);
             return Ok(books);
         }
+
+        [HttpPost]
+        public IActionResult AddBook(string title, int authorId)
+        {
+            var newBook = new Book() { Title = title, AuthorId = authorId };
+            var addedBook = _bookRepo.Add(newBook);
+            return Ok(addedBook);
+        }
     }
 }

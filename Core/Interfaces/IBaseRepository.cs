@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Core.Consts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -17,7 +18,11 @@ namespace Core.Interfaces
 
         IEnumerable<T> FindAll(Expression<Func<T, bool>> criteria, string[] includes = null);
         IEnumerable<T> FindAll(Expression<Func<T, bool>> criteria, int? take, int? skip);
+        IEnumerable<T> FindAll(Expression<Func<T, bool>> criteria, int? take, int? skip, string[] includes,
+            Expression<Func<T,object>> orderBy = null, string orderByDirection = OrderBy.Ascending);
 
+        T Add(T entity);
+        IEnumerable<T> AddRange(IEnumerable<T> entities);
 
     }
 }
