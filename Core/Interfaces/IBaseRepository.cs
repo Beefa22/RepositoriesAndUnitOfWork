@@ -13,7 +13,11 @@ namespace Core.Interfaces
         Task<T> GetByIdAsync(int id);
 
         IEnumerable<T> GetAll();
-        T Find(Expression<Func<T, bool>> expression);
+        T Find(Expression<Func<T, bool>> expression , string[] includes = null);
+
+        IEnumerable<T> FindAll(Expression<Func<T, bool>> criteria, string[] includes = null);
+        IEnumerable<T> FindAll(Expression<Func<T, bool>> criteria, int? take, int? skip);
+
 
     }
 }

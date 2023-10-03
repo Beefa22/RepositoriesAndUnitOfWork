@@ -1,4 +1,5 @@
 ﻿using Core.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,8 +18,41 @@ namespace Repository.Repositories
             _dbContext = dbContext;
         }
 
-        public T Find(Expression<Func<T, bool>> expression)
-          => _dbContext.Set<T>().SingleOrDefault(expression);
+
+        public T Find(Expression<Func<T, bool>> expression, string[] includes = null)
+        {
+            IQueryable<T> query = _dbContext.Set<T>();
+          
+            if (includes is not null)
+                foreach (var include in includes)
+                    query = query.Include(include);
+
+           return query.SingleOrDefault(expression);
+        }
+
+        public IEnumerable<T> FindAll(Expression<Func<T, bool>> criteria, string[] includes = null)
+        {
+            IQueryable<T> query = _dbContext.Set<T>().Where(criteria);
+            
+            if(includes is not null)
+            {
+                foreach (var include in includes)
+                    query = query.Include(include);
+            }
+            return query.ToList();
+        }
+
+        public IEnumerable<T> FindAll(Expression<Func<T, bool>> criteria, int? take, int? skip)
+        {
+            var query = _dbContext.Set<T>().Where(criteria);
+
+            if (take.HasValue)
+                query.Take(take.Value);
+           
+            if (skip.HasValue)
+                query.Skip(skip.Value);
+            return query.ToList();
+        }
 
         public IEnumerable<T> GetAll()
        => _dbContext.Set<T>().ToList();
